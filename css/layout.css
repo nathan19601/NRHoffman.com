@@ -1,0 +1,16 @@
+
+/* ---------------------------- HEADER STYLES -----------------------------*/
+
+header {
+    position: relative;
+    height: 100vh;
+    min-height: 500px;
+    width: 100%;
+    background-image: url("../images/background.jpeg");
+    background-size: cover !important;
+	    -webkit-background-size: cover !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    overflow: hidden;
+}

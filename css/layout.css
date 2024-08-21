@@ -132,6 +132,39 @@ ul#nav li.current a { color: #fff; }
 
 /* ---------------------------- About Section -----------------------------*/
 #about {
-    padding-top: 12rem;
+    background-color: #1C273D;
     padding-bottom: 15rem;
   }
+.section-top {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: #050714;
+    left: 0;
+    top: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.section-top img {
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.image-usf {
+    height: 5rem;
+    width: 5rem;
+}
+.image-nasa {
+    height: 5rem;
+    width: 5rem;
+}
+.image-lockheed {
+    height: 2rem;
+    width: 20rem;
+}
+.image-apex {
+    height: 5rem;
+    width: 5rem;
+}

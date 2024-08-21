@@ -3,16 +3,59 @@
    <head>
       <title>Nathan's Personal Website</title>
 
-      <!-- ======================== CSS ========================== -->
+      <!-- ========================= CSS ============================ -->
       <link rel="stylesheet" href="css/default.css">
       <link rel="stylesheet" href="css/layout.css">
+
+      <!-- ======================== Mobile ========================== -->
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
    </head>
    <body>
       <!-- ======================== Header ========================== -->
       <header id="home">
-         <h1>Nathan Hoffman</h1>
-         <h3> Software Engineer </h3>
-         <h3> Work In Prog </h3>
+         <nav id="nav-wrap">
+            <ul id="nav" class="nav">
+               <li class="current"> <a href="#home">Home</a></li>
+               <li> <a href="#about">About</a></li>
+               <li> <a href="#experience">Experience</a></li>
+               <li> <a href="#skills">Skills</a></li>
+               <li> <a href="#projects">projects</a></li>
+               <li> <a href="#contact">contact</a></li>
+            </ul>
+         </nav>
+         <div class="home-text">
+            <h1>Nathan Hoffman</h1>
+            <h3> Senior Software Engineer @ Lockheed Martin | Advanced Processing and Exploitation | R&D </h3>
+            <h3> Work In Prog </h3>
+            <hr />
+            <ul class="social">
+               <li><a href="https://github.com/nrhoffman"><i class="fa fa-github"></i></a></li>
+               <li><a href="https://www.linkedin.com/in/nrhoffman/"><i class="fa fa-linkedin"></i></a></li>
+               <li><a href="mailto:nhoff314@gmail.com"><i class="fa fa-envelope"></i></a></li>
+            </ul>
+         </div>
       </header>
+      <!-- ===================== About Section ======================= -->
+      <section id="about">
+         <h1>About</h1>
+      </section>
+      <!-- =================== Experience Section ==================== -->
+      <section id="experience">
+         <h1>Experience</h1>
+      </section>
+      <!-- ===================== Skills Section ====================== -->
+      <section id="skills">
+         <h1>Skills</h1>
+      </section>
+      <!-- ==================== Projects Section ===================== -->
+      <section id="projects">
+         <h1>Projects</h1>
+      </section>
+      <!-- ===================== Contact Section ===================== -->
+      <section id="contact">
+         <h1>Contact</h1>
+      </section>
+      <!-- ======================== Javascript ======================= -->
+      <script src="js/init.js"></script>
    </body>
 </html>

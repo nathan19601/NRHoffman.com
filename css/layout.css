@@ -38,7 +38,7 @@ header .home-text h1 {
    text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
 }
 header .home-text h3 {
-   font: 22px/1.9em 'librebaskerville-regular', serif;
+   font: 22px;
    font-family: Tahoma, sans-serif;
    color: #12A6FE;
    margin: 0 auto;

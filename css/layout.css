@@ -95,16 +95,6 @@ header .social {
   left: 0;
   top: 0;
 }
-.nav-left {
-    float: left;
-}
-.brand-name {
-    font-size: 25px;
-    position: absolute;
-    padding: 8px 200px;
-    color: #4CEDFF;
-    text-transform: none
-}
 ul#nav {
     min-height: 48px;
     width: auto;

@@ -1,0 +1,44 @@
+@media (max-width: 768px) {
+    .section-top {
+        flex-direction: column; /* Stack images vertically */
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .section-top img {
+        margin-bottom: 1rem; /* Add spacing between images */
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .image-usf, .image-nasa, .image-apex {
+        height: 3rem; /* Adjust sizes */
+        width: 3rem;
+    }
+
+    .image-lockheed {
+        height: 1.5rem; /* Adjust size */
+        width: 15rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .section-top {
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+
+    .section-top img {
+        margin-bottom: 0.5rem;
+    }
+
+    .image-usf, .image-nasa, .image-apex {
+        height: 2.5rem; /* Further adjust sizes */
+        width: 2.5rem;
+    }
+
+    .image-lockheed {
+        height: 1rem;
+        width: 10rem;
+    }
+}

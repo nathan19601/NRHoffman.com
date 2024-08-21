@@ -152,19 +152,11 @@ ul#nav li.current a { color: #fff; }
     padding-left: 10px;
     padding-right: 10px;
 }
-.image-usf {
-    height: 5rem;
-    width: 5rem;
-}
-.image-nasa {
+.image-usf, .image-nasa, .image-apex {
     height: 5rem;
     width: 5rem;
 }
 .image-lockheed {
     height: 2rem;
     width: 20rem;
-}
-.image-apex {
-    height: 5rem;
-    width: 5rem;
 }

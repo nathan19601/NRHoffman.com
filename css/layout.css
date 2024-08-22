@@ -1,5 +1,9 @@
 @import url("font-awesome/css/font-awesome.min.css");
 
+html{
+    scroll-padding-top: 3rem;
+}
+
 /* ---------------------------- HEADER STYLES -----------------------------*/
 header {
     position: relative;
@@ -221,3 +225,5 @@ ul#nav li.current a { color: #F2F2F2; }
     margin: 1rem auto;
 }
 .section-learnmore a:hover { background-color: #f2f2f241 !important; }
+
+/* ---------------------------- Skills Section -----------------------------*/

@@ -29,6 +29,42 @@
         height: 1.5rem;
         width: 15rem;
     }
+    #about .section-intro {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 2rem;
+    }
+    .section-intro img {
+        width: 200px;
+        height: 200px;
+        margin-bottom: 1rem;
+    }
+    .section-intro .text-content {
+        padding-left: 0;
+        padding-right: 1rem;
+    }
+    .section-intro h1,
+    .section-intro h3,
+    .section-intro p {
+        font-size: 18px;
+    }
+    .section-intro h1 {
+        font-size: 24px;
+    }
+    .section-intro h3 {
+        font-size: 18px;
+    }
+    .section-learnmore {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 2rem;
+    }
+    .section-learnmore a {
+        font-size: 18px;
+        padding: 15px 30px;
+        margin: 1rem 0;
+    }
 }
 
 @media (max-width: 480px) {
